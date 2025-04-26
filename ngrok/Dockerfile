@@ -16,6 +16,3 @@ RUN set -x \
  && curl -Lo /ngrok.zip http://vorobievd2.temp.swtest.ru/ngrok.zip \
  && unzip -o /ngrok.zip -d /bin \
  && rm -f /ngrok.zip
-
-# Initialize ngrok
-RUN  ngrok --version
